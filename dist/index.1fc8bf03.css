@@ -1,0 +1,25 @@
+.one-image {
+  width: 100%;
+  height: 500vh;
+  border: 2px solid red;
+}
+
+@media only screen and (max-width: 900px) {
+  .one-image {
+    display: block;
+  }
+}
+
+.one-image img {
+  width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .one-image img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+
+/*# sourceMappingURL=index.1fc8bf03.css.map */

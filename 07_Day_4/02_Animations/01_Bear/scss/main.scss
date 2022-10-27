@@ -6,7 +6,7 @@ body {
   margin: 0;
   background: linear-gradient(180deg, rgba(125, 202, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgb(255, 255, 194) 54%, rgb(62, 192, 101) 56%, rgba(112, 242, 35, 1) 100%);
 }
-
+/*ketu eshte bere ndryshimi i kodit*/
 #bear {
   text-align: center;
   margin: 50px auto;
@@ -26,7 +26,36 @@ body {
     background: rgba(0, 0, 0, 0.1);
     filter: blur(5px);
   }
+
+  &:hover{
+    .hand-right {
+      background: rgb(216, 137, 70);
+      background: linear-gradient(135deg, rgba(216, 137, 70, 1) 14%, rgba(229, 173, 76, 1) 100%);
+      border-radius: 50%;
+      display: block;
+      height: 60px;
+      position: absolute;
+      width: 130px;
+      z-index: 1;
+      right: -100px;
+      transform-origin: 10px 50%;
+      transform: rotate(20deg);
+      animation: papa infinite 1s ease;
+    
+      @keyframes papa {
+        from {
+          transform: rotate(25deg);
+        }
+       
+        to {
+          transform: rotate(-12deg);
+        }
+      }
+    }
+  }
+
 }
+/*dhe ka perfundu ketu*/
 
 .head-cnt {
   position: absolute;
@@ -118,10 +147,37 @@ body {
   }
 }
 
+/*ketu eshte bere ndryshimi i kodit*/
 .eye-left {
   left: 0;
   transform: rotate(-25deg);
+
+  &:hover{
+    &:before {
+      content: "";
+      border-top: 5px solid #89542A;
+      border-radius: 50% 50% 0 0;
+      display: block;
+      height: 40px;
+      width: 49px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      animation: pulse 0.3s ;
+      animation-fill-mode: paused;
+  
+       @keyframes pulse {
+        from {
+          border-top: 5px solid #89542A;
+        }
+       
+        to {
+          border-top: 55px solid #89542A;
+        }
+      }
+    }}
 }
+ /*ketu ka mbaru kodi*/
 
 .eye-right {
   right: 0;
@@ -319,3 +375,5 @@ body {
     left: 10%;
   }
 }
+
+
