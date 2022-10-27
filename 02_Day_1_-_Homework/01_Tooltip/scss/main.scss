@@ -1,0 +1,20 @@
+@mixin tooltip($text,$color) {
+    content: $text;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: $color;
+    font-size: 30px;
+    color: black;
+}
+
+.list{
+    width: 250px;
+    &:hover{
+        position: relative;
+
+        &::after{
+            @include tooltip("navigation", aqua)
+        }
+    }
+}

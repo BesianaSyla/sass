@@ -1,0 +1,20 @@
+
+%structure{
+    height: 400px;
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+.container{
+    .success{
+        background-color: green;
+        @extend %structure;
+    }
+    .error{
+        background-color: red;
+        @extend %structure;
+    }
+    .info{
+        background-color: blue;
+        @extend %structure;
+    }
+}

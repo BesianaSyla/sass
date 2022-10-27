@@ -1,0 +1,21 @@
+@use "sass:map";
+
+
+$colors: (
+    header: #b06,
+    text: #334,
+    footer:#666777,
+    );
+
+    body{
+        background-color: map.get($colors,header);
+        
+    }
+    header{
+      
+        background-color: map.get($colors,text);
+    }
+    footer{
+        background-color: map.get($colors,footer);
+        
+    }

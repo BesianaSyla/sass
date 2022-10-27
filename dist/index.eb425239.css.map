@@ -1,0 +1,1 @@
+{"mappings":"AAQA","sources":["03_Day_2/04_Functions/03_Exercise_3/scss/main.scss"],"sourcesContent":["@use \"sass:math\";\r\n\r\n$number:5;\r\n\r\n@function number($number){\r\n    @return percentage($number);\r\n}\r\n\r\np{\r\n    font-size: number($number);\r\n}\r\n"],"names":[],"version":3,"file":"index.eb425239.css.map","sourceRoot":"/__parcel_source_root/"}

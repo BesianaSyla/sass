@@ -1,0 +1,19 @@
+.container .info, .container .error, .container .success {
+  height: 400px;
+  border: 1px solid;
+  margin-bottom: 20px;
+}
+
+.container .success {
+  background-color: green;
+}
+
+.container .error {
+  background-color: red;
+}
+
+.container .info {
+  background-color: #00f;
+}
+
+/*# sourceMappingURL=index.bae5e739.css.map */

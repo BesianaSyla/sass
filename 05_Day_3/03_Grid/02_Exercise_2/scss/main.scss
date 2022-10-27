@@ -1,0 +1,95 @@
+
+
+$columns-main3:3;
+$columns-main1:1;
+$columns: 12;
+$column-base-width: 100% / $columns;
+$column-left:100% / $columns-main3;
+$column-midldle:100% / $columns-main1;
+body{
+    header  {
+        width: 100%;
+        max-width: 990px;
+        margin: 0 auto;
+        padding: 0 15px;
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            [class*='element-'] {
+                min-height: 100px;
+                width: $column-base-width;
+                background-color:rgb(175, 110, 235) ;
+              }
+          }
+      }
+      main{
+        width: 100%;
+        max-width: 990px;
+        margin: 0 auto;
+        padding: 0 15px;
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                .row1 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: $column-left;
+                height: 450px;
+                    [class*='element-'] {
+                        min-height: 100px;
+                        width: $column-left;
+                        background-color: rgb(103, 103, 244);
+                        border: 1px solid;
+                        box-sizing: border-box;
+                      }
+                    }
+            }
+            .row2 {
+                display: flex;
+                flex-wrap: wrap;
+                width: $column-left;
+                height: 500px;
+                [class*='element-'] {
+                    min-height: 100px;
+                    width: $column-midldle;
+                    background-color: rgb(213, 244, 103);
+                    border: 1px solid;
+                    box-sizing: border-box;
+                  }
+                }
+                .row3 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: $column-left;
+                height: 500px;
+                    [class*='element-'] {
+                        min-height: 100px;
+                        width: $column-left;
+                        background-color: rgb(103, 103, 244);
+                        border: 1px solid;
+                        box-sizing: border-box;
+                      }
+                    }
+      }
+      footer  {
+        width: 100%;
+        max-width: 990px;
+        margin: 0 auto;
+        padding: 0 15px;
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            [class*='element-'] {
+                min-height: 100px;
+                width: $column-base-width;
+                background-color: rgb(103, 103, 244);
+              }
+          }
+      }
+    }

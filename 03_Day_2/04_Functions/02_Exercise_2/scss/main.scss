@@ -1,0 +1,15 @@
+@use "sass:color";
+$red:red;
+
+h1{
+    background-color: color.scale($red, $aqua,15%);
+}
+h2{
+    background-color: color.scale($red, $aqua, 20%);
+}
+h3{
+    background-color: color.scale($red, $aqua,30%);
+}
+h4{
+    background-color: color.scale($red, $aqua, 35%);
+}

@@ -1,0 +1,13 @@
+.Container{
+   
+    @media (max-width: 900px) {
+        background-color: green;
+        margin-left: 10px;
+        display: block;
+    }
+    @media (min-width: 300px)   {
+        background-color: blue;
+        margin-left: 10px;
+    }
+   
+}

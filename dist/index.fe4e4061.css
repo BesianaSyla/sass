@@ -1,0 +1,16 @@
+@media (max-width: 900px) {
+  .Container {
+    background-color: green;
+    margin-left: 10px;
+    display: block;
+  }
+}
+
+@media (min-width: 300px) {
+  .Container {
+    background-color: #00f;
+    margin-left: 10px;
+  }
+}
+
+/*# sourceMappingURL=index.fe4e4061.css.map */

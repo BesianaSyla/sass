@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #444;
+  background-color: #e4e4e4;
+  font-family: Raleway, sans-serif;
+}
+
+#header-wrapper {
+  padding: 4.5em 0 3em;
+}
+
+#header-wrapper #header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  #header-wrapper #header {
+    display: none;
+  }
+}
+
+#header-wrapper #header #logo {
+  display: inline-block;
+}
+
+#header-wrapper #header #logo h1 {
+  color: #fff;
+  letter-spacing: .05em;
+  vertical-align: middle;
+  background: #ff4486;
+  border-radius: 6px;
+  padding: .25em .2em;
+  font-family: Oleo Script, serif;
+  font-size: 3.25em;
+  font-weight: 400;
+  display: inline-block;
+}
+
+#header-wrapper #header #logo span {
+  letter-spacing: .025em;
+  vertical-align: middle;
+  margin: 0 0 0 1.25em;
+  font-size: .9em;
+  font-weight: 800;
+  line-height: 4.5em;
+}
+
+#header-wrapper #header #nav {
+  font-size: .9em;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#header-wrapper #header #nav ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+#header-wrapper #header #nav ul li {
+  float: left;
+  padding-left: 1.5em;
+  line-height: 4.5em;
+}
+
+#header-wrapper #header #nav ul li a, #header-wrapper #header #nav ul li span {
+  letter-spacing: .025em;
+  color: #696969;
+  border-radius: 6px;
+  padding: .5em 1em;
+  font-weight: 800;
+  text-decoration: none;
+  transition: background-color .25s ease-in-out;
+}
+
+#header-wrapper #header #nav ul li > ul {
+  display: none;
+}
+
+#header-wrapper #header #nav ul li:hover a, #header-wrapper #header #nav ul li:hover span, #header-wrapper #header #nav ul li.active a, #header-wrapper #header #nav ul li.active span {
+  background: #fff;
+}
+
+#header-wrapper #header #nav ul li.current a {
+  color: #fff;
+  background: #444;
+}
+
+#main-wrapper {
+  background: #fff;
+  padding: 5em 0;
+  box-shadow: 0 3px #0000000d;
+}
+
+#main-wrapper .text-holder {
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#main-wrapper .text-holder .btn-holders {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+#main-wrapper .text-holder .btn-holders .letGo {
+  color: #fff;
+  background-color: #00f;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 2em;
+}
+
+#main-wrapper .text-holder .btn-holders .info {
+  color: #000;
+  background-color: #e4e4e4;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 2em;
+}
+
+/*# sourceMappingURL=index.13eea642.css.map */

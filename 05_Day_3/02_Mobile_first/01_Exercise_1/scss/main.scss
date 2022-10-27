@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+  
+    @media only screen and (max-width: 600px) {
+        display: block;
+      }
+}
+
+.sidebar{
+    display: block;
+    background-color: black;
+    height: 50vh;
+    width: 30%;
+    @media only screen and (max-width: 600px) {
+        width: 100%;
+      }
+}
+
+section{
+    display: block;
+    background-color: blue;
+    height: 50vh;
+    width: 70%;
+    @media only screen and (max-width: 800px) {
+        width: 100%;
+      }
+}

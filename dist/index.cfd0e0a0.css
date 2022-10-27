@@ -1,0 +1,100 @@
+body header {
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body header .row {
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+body header .row [class*="element-"] {
+  min-height: 100px;
+  width: 8.33333%;
+  background-color: #af6eeb;
+}
+
+body main {
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body main .row {
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+body main .row .row1 {
+  width: 33.3333%;
+  height: 450px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+body main .row .row1 [class*="element-"] {
+  min-height: 100px;
+  width: 33.3333%;
+  box-sizing: border-box;
+  background-color: #6767f4;
+  border: 1px solid;
+}
+
+body main .row2 {
+  width: 33.3333%;
+  height: 500px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+body main .row2 [class*="element-"] {
+  min-height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #d5f467;
+  border: 1px solid;
+}
+
+body main .row3 {
+  width: 33.3333%;
+  height: 500px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+body main .row3 [class*="element-"] {
+  min-height: 100px;
+  width: 33.3333%;
+  box-sizing: border-box;
+  background-color: #6767f4;
+  border: 1px solid;
+}
+
+body footer {
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body footer .row {
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+body footer .row [class*="element-"] {
+  min-height: 100px;
+  width: 8.33333%;
+  background-color: #6767f4;
+}
+
+/*# sourceMappingURL=index.cfd0e0a0.css.map */
